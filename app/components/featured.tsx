@@ -14,7 +14,7 @@ const Feactured = () => {
       <div className="flex flex-col md:flex-row gap-6 pb-20">
         <div className="w-full md:w-1/2">
           <Image
-            src={"/Hero2.jpg"}
+            src={"/hero2.jpg"}
             width={600}
             height={600}
             alt="product"
@@ -35,47 +35,51 @@ const Feactured = () => {
             exercitationem facilis earum.
           </p>
           <Link href="#" target="_blank">
-          <motion.button
-            whileHover={{ scale: 1.2 }}
-            onHoverStart={(e) => {}}
-            onHoverEnd={(e) => {}}
-            
-            className="bg-[#e0cb70] px-4 py-2 hover:bg-[#ae9c4b] text-black"
-          >
-            Get A Quote
-          </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.2 }}
+              onHoverStart={(e) => {}}
+              onHoverEnd={(e) => {}}
+              className="bg-[#e0cb70] px-4 py-2 hover:bg-[#ae9c4b] text-black"
+            >
+              Get A Quote
+            </motion.button>
           </Link>
         </div>
       </div>
 
-      <div id="services" className="flex flex-col md:flex-row md:py-20 gap-5 text-center">
-      <h2 className="text-[30px] md:text-[56px] pb-4">Our Services</h2>
-        <div className="w-full md:w-1/3 p-10 bg-white border-orange-300 border-2">
-          <h2 className="font-bold text-orange-950 border-b-2 border-orange-300 pb-4">
-            Expert Craftmanship
-          </h2>
-          <p className="pt-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
-            culpa quibusdam esse ipsum vitae dicta.
-          </p>
-        </div>
-        <div className="w-full md:w-1/3 p-10 bg-white border-orange-300 border-2">
-          <h2 className="font-bold text-orange-950 border-b-2 border-orange-300 pb-4">
-            Expert Craftmanship
-          </h2>
-          <p className="pt-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
-            culpa quibusdam esse ipsum vitae dicta.
-          </p>
-        </div>
-        <div className="w-full md:w-1/3 p-10 bg-white border-orange-300 border-2">
-          <h2 className="font-bold text-orange-950 border-b-2 border-orange-300 pb-4">
-            Expert Craftmanship
-          </h2>
-          <p className="pt-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
-            culpa quibusdam esse ipsum vitae dicta.
-          </p>
+      <div
+      className=" md:py-20"
+        id="services"
+      >
+        <h2 className="text-[30px] md:text-[56px] pb-4">Our Services</h2>
+        <div className="flex flex-col md:flex-row gap-5 text-center">
+          <div className="w-full md:w-1/3 p-10 bg-white border-orange-300 border-2">
+            <h2 className="font-bold text-orange-950 border-b-2 border-orange-300 pb-4">
+              Expert Craftmanship
+            </h2>
+            <p className="pt-4">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+              culpa quibusdam esse ipsum vitae dicta.
+            </p>
+          </div>
+          <div className="w-full md:w-1/3 p-10 bg-white border-orange-300 border-2">
+            <h2 className="font-bold text-orange-950 border-b-2 border-orange-300 pb-4">
+              Expert Craftmanship
+            </h2>
+            <p className="pt-4">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+              culpa quibusdam esse ipsum vitae dicta.
+            </p>
+          </div>
+          <div className="w-full md:w-1/3 p-10 bg-white border-orange-300 border-2">
+            <h2 className="font-bold text-orange-950 border-b-2 border-orange-300 pb-4">
+              Expert Craftmanship
+            </h2>
+            <p className="pt-4">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+              culpa quibusdam esse ipsum vitae dicta.
+            </p>
+          </div>
         </div>
       </div>
 
