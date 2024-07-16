@@ -11,7 +11,6 @@ const Parallax = () => {
             </div>
 
             <div className="mt-8 text-center md:mt-16 md:order-3">
-                <a href="#" title="" className="pb-2 text-base font-bold leading-7 text-gray-900 transition-all duration-200 border-b-2 border-gray-900 hover:border-gray-600 font-pj focus:outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 hover:text-gray-600"> Check all 2,157 reviews </a>
             </div>
 
             <div className="relative mt-10 md:mt-24 md:order-2">
@@ -57,7 +56,7 @@ const Parallax = () => {
                             </div>
 
                             <div className="flex items-center mt-8">
-                                <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png" alt="" />
+                                <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="/wood.jpg" alt="" />
                                 <div className="ml-4">
                                     <p className="text-base font-bold text-gray-900 font-pj">Leslie Alexander</p>
                                     <p className="mt-0.5 text-sm font-pj text-gray-600">Freelance React Developer</p>

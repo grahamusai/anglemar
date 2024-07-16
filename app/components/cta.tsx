@@ -6,7 +6,7 @@ const Cta = () => {
       <div className="absolute inset-0">
         <img
           className=" w-full h-full md:object-left md:scale-150 md:origin-top-left bg-"
-          src="/qoute.jpg"
+          src="/wood.jpg"
           alt=""
         />
       </div>
@@ -18,7 +18,7 @@ const Cta = () => {
       <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="text-center md:w-2/3 lg:w-1/2 xl:w-1/3 md:text-left">
           <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
-            Get full access to Celebration
+            Get access to our services
           </h2>
           <p className="mt-4 text-base text-gray-200">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet

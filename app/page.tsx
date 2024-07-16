@@ -13,9 +13,9 @@ export default function Home() {
       <Header />
       <Hero />
       <Feactured />
-      <Parallax />
       <Cta />
       <Gallery />
+      <Parallax />
       <Footer />
     </div>
   );

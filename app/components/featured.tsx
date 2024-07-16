@@ -9,9 +9,9 @@ import { useState } from "react";
 const Feactured = () => {
   const [position, setPosition] = React.useState("bottom");
   return (
-    <div className="px-24 mt-8">
+    <div className="px-5 md:px-24 mt-8" id="about">
       <h2 className="text-[56px] pb-4">About us</h2>
-      <div className="flex gap-6 pb-20">
+      <div className="flex flex-col md:flex-row gap-6 pb-20">
         <div className="w-full md:w-1/2">
           <Image
             src={"/Hero2.jpg"}
@@ -20,7 +20,7 @@ const Feactured = () => {
             alt="product"
           ></Image>
         </div>
-        <div className="w-full md:w-1/2 px-12 mt-4">
+        <div className="w-full md:w-1/2 px-5 md:px-12 mt-4">
           <h3 className="text-xs text-orange-400 mb-7">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet neque
             quidem nostrum.
@@ -42,13 +42,14 @@ const Feactured = () => {
             
             className="bg-[#e0cb70] px-4 py-2 hover:bg-[#ae9c4b] text-black"
           >
-            Apply Now
+            Get A Quote
           </motion.button>
           </Link>
         </div>
       </div>
 
-      <div className="flex py-20 gap-5 text-center">
+      <div id="services" className="flex flex-col md:flex-row md:py-20 gap-5 text-center">
+      <h2 className="text-[30px] md:text-[56px] pb-4">Our Services</h2>
         <div className="w-full md:w-1/3 p-10 bg-white border-orange-300 border-2">
           <h2 className="font-bold text-orange-950 border-b-2 border-orange-300 pb-4">
             Expert Craftmanship
@@ -78,7 +79,7 @@ const Feactured = () => {
         </div>
       </div>
 
-      <div className="flex mt-20">
+      <div className="flex flex-col md:flex-row md:mt-20">
         <div className="w-full md:w-1/2 px-12 mt-20">
           <h3 className="text-xs text-orange-400 mb-7">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet neque

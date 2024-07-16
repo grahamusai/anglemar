@@ -9,7 +9,7 @@ import { IoMenu } from "react-icons/io5";
 const Navbar = () => {
   const [position, setPosition] = React.useState("bottom");
   return (
-    <nav className="bg-[#f3f5f7] fixed w-full z-20 px:14 md:px-0 lg:px-24 top-0 start-0 text-black">
+    <nav className="bg-[#f3f5f7] fixed w-full z-20 px-5 md:px-0 lg:px-24 top-0 start-0 text-black">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3">
         <a href="/" className="flex items-center ml-3 space-x-3 rtl:space-x-reverse">
           <Image
@@ -29,7 +29,7 @@ const Navbar = () => {
             
             className="bg-[#e0cb70] px-4 py-2 hover:bg-[#ae9c4b] text-black"
           >
-            Apply Now
+            Get A Quote
           </motion.p>
           </Link>
 
@@ -50,7 +50,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/about"
+                href="#about"
                 className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#e0cb70] md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 About
@@ -59,10 +59,10 @@ const Navbar = () => {
 
             <li>
               <a
-                href="/faqs"
+                href="#services"
                 className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#e0cb70] md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
               >
-                FAQs
+                Services
               </a>
             </li>
             {/* <li>
@@ -85,10 +85,10 @@ const Navbar = () => {
               <ul>
                 <li>
                   <a
-                    href="/brokers"
+                    href="#gallery"
                     className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#e0cb70] md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
                   >
-                    Become An Affiliate
+                    Gallery
                   </a>
                 </li>
               </ul>
