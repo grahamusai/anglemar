@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import { motion } from "framer-motion";3
+import { motion } from "framer-motion";
 import { IoMenu } from "react-icons/io5";
 
 
@@ -21,13 +21,13 @@ const Navbar = () => {
           />
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <Link href="https://apply.fundgenie.co.za/" target="_blank">
+          <Link href="#" target="_blank">
           <motion.p
             whileHover={{ scale: 1.2 }}
             onHoverStart={(e) => {}}
             onHoverEnd={(e) => {}}
             
-            className="bg-[#e0cb70] px-4 py-2 rounded-full hover:bg-[#ae9c4b] text-black"
+            className="bg-[#e0cb70] px-4 py-2 hover:bg-[#ae9c4b] text-black"
           >
             Apply Now
           </motion.p>

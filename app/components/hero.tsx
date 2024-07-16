@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
       </div>
       <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
