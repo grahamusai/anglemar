@@ -11,7 +11,7 @@ const Gallery = () => {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                src="/1.jpeg"
               />
             </div>
           </div>
@@ -20,7 +20,7 @@ const Gallery = () => {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                src="/2.jpeg"
               />
             </div>
           </div>
@@ -29,7 +29,7 @@ const Gallery = () => {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
+                src="/3.jpeg"
               />
             </div>
           </div>
@@ -38,7 +38,7 @@ const Gallery = () => {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
+                src="/4.jpeg"
               />
             </div>
           </div>
@@ -47,7 +47,7 @@ const Gallery = () => {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp"
+                src="/5.jpeg"
               />
             </div>
           </div>
@@ -56,7 +56,7 @@ const Gallery = () => {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
+                src="/6.jpeg"
               />
             </div>
           </div>
