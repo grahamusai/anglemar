@@ -59,7 +59,7 @@ const Feactured = () => {
               </div>
 
               <h2 className="font-bold text-orange-950 ">
-                Expert Craftmanship
+                Custom Home Office
               </h2>
             </div>
 
@@ -74,7 +74,7 @@ const Feactured = () => {
                 <MdOutlineCarpenter />
               </div>
 
-              <h2 className="font-bold text-orange-950 ">Innovative Designs</h2>
+              <h2 className="font-bold text-orange-950 ">Morden Kitchens</h2>
             </div>
 
             <p className="pt-4">
@@ -89,7 +89,55 @@ const Feactured = () => {
               </div>
 
               <h2 className="font-bold text-orange-950 ">
-                Expert Craftmanship
+                Built-in Bedroom Closets
+              </h2>
+            </div>
+
+            <p className="pt-4">
+              Emphasize the high level of skill and attention to detail in your
+              home & work installations.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row gap-5 text-center mt-5 md:mt-10">
+          <div className="card flex flex-col items-center justify-center w-full md:w-1/3 p-10 bg-white border-orange-300 border-2">
+            <div className="heading flex gap-3 border-b-2 border-orange-300 pb-4">
+              <div className="text-3xl text-orange-600">
+                <GiWoodenCrate />
+              </div>
+
+              <h2 className="font-bold text-orange-950 ">
+                Vanities
+              </h2>
+            </div>
+
+            <p className="pt-4">
+              Emphasize the high level of skill and attention to detail in your
+              home & work installations.
+            </p>
+          </div>
+          <div className="card flex flex-col items-center justify-center w-full md:w-1/3 p-10 bg-white border-orange-300 border-2">
+            <div className="heading flex gap-3 border-b-2 border-orange-300 pb-4">
+              <div className="text-3xl text-orange-600">
+                <MdOutlineCarpenter />
+              </div>
+
+              <h2 className="font-bold text-orange-950 ">Granite Top Installations</h2>
+            </div>
+
+            <p className="pt-4">
+              Emphasize the high level of skill and attention to detail in your
+              home & work installations.
+            </p>
+          </div>
+          <div className="card flex flex-col items-center justify-center w-full md:w-1/3 p-10 bg-white border-orange-300 border-2">
+            <div className="heading flex gap-3 border-b-2 border-orange-300 pb-4">
+              <div className="text-3xl text-orange-600">
+                <LuPaintbrush />
+              </div>
+
+              <h2 className="font-bold text-orange-950 ">
+                Tunky Projects
               </h2>
             </div>
 
