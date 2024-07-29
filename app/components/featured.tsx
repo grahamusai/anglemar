@@ -112,7 +112,7 @@ const Feactured = () => {
           <p className="mb-5">
             At Anglemar, we blend artistry with functionality to create
             outstanding woodwork and construction solutions. Our passion drives
-            every project's success.
+            every project&apos;s success.
           </p>
           <ul className="mb-5">
             <li className="flex gap-1">
