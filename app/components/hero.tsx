@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="relative h-screen flex items-center justify-center text-center bg-gray-800">
+    <div className="relative h-screen flex items-center  bg-gray-800">
       <Image
         src="/herobg.jpg"
         alt="Background Image"
@@ -13,16 +13,14 @@ const Hero = () => {
         quality={100}
         className="absolute inset-0 z-0"
       />
-      <div className="relative z-10 p-4 text-white">
-        <h1 className="text-5xl font-bold">Welcome to Our Website</h1>
-        <p className="mt-4 text-xl">We provide the best services for you.</p>
+      <div className="relative z-10 py-4 px-32 text-white">
+        <h1 className="text-base font-bold">Innovative Designs, Lasting Solutions</h1>
+        <p className="my-4 text-5xl font-bold">Elevate your space <br /> with superior work.</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-          ducimus excepturi maxime inventore quibusdam delectus velit quas,
-          voluptatem vero atque!
+          Explore the pinnacle of woodworking excellence, delivering durability, <br /> style and unmatched quality in every project.
         </p>
         <Link href="#about" target="_blank">
-          <button className="mt-8 px-6 py-3 bg-red-800  text-lg hover:bg-blue-700 transition duration-300">
+          <button className="mt-8 px-6 py-3 bg-orange-800 rounded-sm text-md hover:bg-orange-500 transition duration-300">
             Get Started
           </button>
         </Link>

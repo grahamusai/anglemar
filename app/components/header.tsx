@@ -15,8 +15,8 @@ const Navbar = () => {
           <Image
             src="/logo.png"
             alt="logo"
-            height={736}
-            width={387}
+            height={374}
+            width={574}
             className="h-10 w-[5rem] md:h-10 md:w-[5rem]"
           />
         </a>
@@ -27,7 +27,7 @@ const Navbar = () => {
             onHoverStart={(e) => {}}
             onHoverEnd={(e) => {}}
             
-            className="bg-[#e0cb70] px-4 py-2 hover:bg-[#ae9c4b] text-black"
+            className="bg-orange-700 px-4 py-2 hover:bg-orange-950 text-white"
           >
             Get A Quote
           </motion.p>
@@ -43,7 +43,7 @@ const Navbar = () => {
             <li>
               <a
                 href="/"
-                className="block py-2 px-8 text-black  rounded md:bg-transparent md:hover:text-[#e0cb70] md:p-0 "
+                className="block py-2 px-8 text-black  rounded md:bg-transparent md:hover:text-orange-700s md:p-0 "
               >
                 Home
               </a>
@@ -51,7 +51,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#about"
-                className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#e0cb70] md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700s md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 About
               </a>
@@ -60,7 +60,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#services"
-                className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#e0cb70] md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700s md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Services
               </a>
@@ -68,7 +68,7 @@ const Navbar = () => {
             {/* <li>
               <a
                 href="/"
-                className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#e0cb70] md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700s md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Blog
               </a>
@@ -76,7 +76,7 @@ const Navbar = () => {
             <li>
               <a
                 href="/contact"
-                className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#e0cb70] md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700s md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Contact
               </a>
@@ -86,7 +86,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="#gallery"
-                    className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#e0cb70] md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
+                    className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700s md:p-0  dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     Gallery
                   </a>
