@@ -13,7 +13,7 @@ const Hero = () => {
         quality={100}
         className="absolute inset-0 z-0"
       />
-      <div className="relative z-10 py-4 px-32 text-white">
+      <div className="relative z-10 py-4 px-10 md:px-32 text-white">
         <h1 className="text-base font-bold">Innovative Designs, Lasting Solutions</h1>
         <p className="my-4 text-5xl font-bold">Elevate your space <br /> with superior work.</p>
         <p>
